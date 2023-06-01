@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-color: #1f1f21;
+}
+/*navbar*/
+.logo{
+    width: 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    
+
+}
+a{
+    text-decoration: none;
+    padding: 5vh;
+    color: white;
+    font-weight: 500;
+    margin: 0 25px;
+}
+a:hover{
+    color: red;
+    transform: scale(1.3);
+}
+
+/*main*/
+.image{
+    position: absolute;
+    height: 50%;  
+    
+    left: 50%;
+    top: 30%;
+    margin-left: 5vh;
+    border-radius: 50px;
+}
+.who{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.contact{
+    border: 2px solid orange;
+    padding: 10px 25px;
+    border-radius: 5000px;
+    background-color: orange;
+    
+}
+.contact:hover{
+    transform: scale(1.3);
+}
+ h1{
+    color: white;
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+p{
+    color: orange;
+}
+@media screen and (max-width: 500px) {
+    .image{
+        position:  none ;
+        height: 25%;  
+        top: 70%;
+        left: 0;
+        border-radius: 50px;
+        float: left;
+    }
+
+    
+}
